@@ -1,0 +1,28 @@
+{
+  "name": "asp.net-core6-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run watch:css",
+    "build": "npm run build:css",
+    "watch:css": "cross-env NODE_ENV=production  postcss ./wwwroot/css/site.css -o ./wwwroot/css/output.css  --minify",
+    "build:css": "cross-env NODE_ENV=production  postcss ./wwwroot/css/site.css -o ./wwwroot/css/output.css  --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "cssnano": "^5.1.9",
+    "minify": "^8.0.4",
+    "postcss-cli": "^9.1.0",
+    "postcss-import": "^14.1.0",
+    "postcss-preset-env": "^7.6.0"
+  }
+}
