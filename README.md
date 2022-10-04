@@ -1,4 +1,5 @@
 Setting run cmd -> .csproj
+
 #build tailwind css mode dev
 
 ```
