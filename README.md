@@ -1,4 +1,4 @@
-Setting run cmd -> .csproj
+Setting run cmd npm run start or npm run build -> .csproj
 
 #build tailwind css mode dev
 
